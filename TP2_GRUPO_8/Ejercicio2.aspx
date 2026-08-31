@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="TP2_GRUPO_8.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ejercicio2.aspx.cs" Inherits="TP2_GRUPO_8.Ejercicio2" %>
 
 <!DOCTYPE html>
 
@@ -12,7 +12,5 @@
         <div>
         </div>
     </form>
-    <p>
-        Ingrese el nombre del producto:</p>
 </body>
 </html>
