@@ -15,6 +15,13 @@
             .auto-style2 {
                 width: 256px;
             }
+            .auto-style3 {
+                width: 256px;
+                height: 70px;
+            }
+            .auto-style4 {
+                height: 70px;
+            }
         </style>
     </head>
 
@@ -23,17 +30,19 @@
             <div>
                 <table class="auto-style1">
                     <tr>
-                        <td class="auto-style2">
+                        <td class="auto-style3">
                             <p>
                                 Ingrese el nombre del producto:
                             </p>
                         </td>
-                        <td>
+                        <td class="auto-style4">
                             <asp:TextBox ID="nombre_producto1" runat="server"></asp:TextBox>
+                            <asp:Label ID="Label1" runat="server" style="font-weight: 700" Text="Cantidad:"></asp:Label>
+                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                         </td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td class="auto-style4"></td>
+                        <td class="auto-style4"></td>
+                        <td class="auto-style4"></td>
                     </tr>
                     <tr>
                         <td class="auto-style2">&nbsp;</td>
