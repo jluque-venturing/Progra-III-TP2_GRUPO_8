@@ -63,7 +63,9 @@
                         <td class="auto-style4"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style2">
+                            <asp:Button ID="Button1" runat="server" Text="Generar Tabla" />
+                        </td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
