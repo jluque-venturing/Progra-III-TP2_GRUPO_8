@@ -27,6 +27,13 @@
         .auto-style6 {
             height: 23px;
         }
+        .auto-style7 {
+            width: 242px;
+        }
+        .auto-style8 {
+            height: 23px;
+            width: 242px;
+        }
     </style>
 </head>
 <body>
@@ -35,7 +42,7 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -49,7 +56,7 @@
                 <td class="auto-style2">
                     <asp:Label ID="Label1" runat="server" Text="Nombre"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style7">
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
@@ -63,7 +70,7 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -77,7 +84,7 @@
                 <td class="auto-style5">
                     <asp:Label ID="Label2" runat="server" Text="Apellido"></asp:Label>
                 </td>
-                <td class="auto-style6">
+                <td class="auto-style8">
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style6"></td>
@@ -91,7 +98,27 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label3" runat="server" Text="Ciudad"></asp:Label>
+                </td>
+                <td class="auto-style7">
+                    <asp:DropDownList ID="DropDownList1" runat="server">
+                        <asp:ListItem Value="zona norte">Gral. Pacheco</asp:ListItem>
+                        <asp:ListItem Value="zona oeste">San Miguel</asp:ListItem>
+                        <asp:ListItem Value="zona sur">Boedo</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -103,19 +130,7 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -127,19 +142,7 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -151,7 +154,19 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
