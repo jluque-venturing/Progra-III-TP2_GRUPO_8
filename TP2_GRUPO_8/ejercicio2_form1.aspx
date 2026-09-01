@@ -74,8 +74,12 @@
             </tr>
             <tr>
                 <td class="auto-style4"></td>
-                <td class="auto-style5"></td>
-                <td class="auto-style6"></td>
+                <td class="auto-style5">
+                    <asp:Label ID="Label2" runat="server" Text="Apellido"></asp:Label>
+                </td>
+                <td class="auto-style6">
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                </td>
                 <td class="auto-style6"></td>
                 <td class="auto-style6"></td>
                 <td class="auto-style6"></td>
