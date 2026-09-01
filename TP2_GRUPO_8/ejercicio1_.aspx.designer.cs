@@ -51,6 +51,15 @@ namespace TP2_GRUPO_8
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
+        /// Control lblProducto2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblProducto2;
+
+        /// <summary>
         /// Control nombre_producto2.
         /// </summary>
         /// <remarks>
