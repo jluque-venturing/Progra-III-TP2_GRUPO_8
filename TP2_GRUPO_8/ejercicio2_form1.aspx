@@ -141,8 +141,12 @@
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style2">
+                    <asp:Label ID="Label4" runat="server" Text="Temas:"></asp:Label>
+                </td>
+                <td class="auto-style7">
+                    <asp:CheckBox ID="CheckBox1" runat="server" Text="Ciencias" />
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -154,7 +158,9 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style7">
+                    <asp:CheckBox ID="CheckBox3" runat="server" Text="Literatura" />
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -166,7 +172,9 @@
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style7">
+                    <asp:CheckBox ID="CheckBox2" runat="server" Text="Historia" />
+                </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
