@@ -52,7 +52,9 @@
                         <td class="auto-style4"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style3" id="lblProducto2">Ingrese el nombre del producto:</td>
+                        <td class="auto-style3">
+    <asp:Label ID="lblProducto2" runat="server" Text="Ingrese el nombre del producto:"></asp:Label>
+</td>
                         <td class="auto-style4">
                             <asp:TextBox ID="nombre_producto2" runat="server"></asp:TextBox>
                         </td>
