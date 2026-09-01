@@ -22,6 +22,13 @@
             .auto-style4 {
                 height: 70px;
             }
+            .auto-style7 {
+                width: 256px;
+                height: 23px;
+            }
+            .auto-style8 {
+                height: 23px;
+            }
         </style>
     </head>
 
@@ -45,11 +52,13 @@
                         <td class="auto-style4"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style2">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td class="auto-style3" id="lblProducto2">Ingrese el nombre del producto:</td>
+                        <td class="auto-style4">
+                            <asp:TextBox ID="nombre_producto2" runat="server"></asp:TextBox>
+                        </td>
+                        <td class="auto-style4"></td>
+                        <td class="auto-style4"></td>
+                        <td class="auto-style4"></td>
                     </tr>
                     <tr>
                         <td class="auto-style2">&nbsp;</td>
@@ -59,11 +68,11 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td class="auto-style2">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td class="auto-style7"></td>
+                        <td class="auto-style8"></td>
+                        <td class="auto-style8"></td>
+                        <td class="auto-style8"></td>
+                        <td class="auto-style8"></td>
                     </tr>
                     <tr>
                         <td class="auto-style2">&nbsp;</td>
