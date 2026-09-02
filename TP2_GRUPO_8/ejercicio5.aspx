@@ -16,6 +16,17 @@
         .auto-style3 {
             width: 394px;
         }
+        .auto-style4 {
+            width: 394px;
+            height: 23px;
+        }
+        .auto-style5 {
+            width: 125px;
+            height: 23px;
+        }
+        .auto-style6 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +53,9 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style3">
+                    <asp:Label ID="lblSeleccionRAM" runat="server" Font-Bold="True" Font-Size="Large" Text="Seleccione cantidad de memoria:"></asp:Label>
+                </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -51,13 +64,13 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style4"></td>
+                <td class="auto-style5"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
