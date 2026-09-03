@@ -11,7 +11,13 @@ namespace TP2_GRUPO_8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string nombre = ((TextBox)PreviousPage.FindControl("TextBox1")).Text;
+            string apellido = ((TextBox)PreviousPage.FindControl("TextBox2")).Text;
 
+            lblResumen.Text = "Nombre: " + nombre + "<br />" +
+                      "Apellido: " + apellido + "<br />";
+
+            // aca muestro lo obtuvido en el primer formulario
         }
     }
 }

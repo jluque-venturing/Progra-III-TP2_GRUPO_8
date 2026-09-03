@@ -66,7 +66,7 @@
                     </tr>
                     <tr>
                         <td class="auto-style2">
-                            <asp:Button ID="Button1" runat="server" Text="Generar Tabla" />
+                            <asp:Button ID="Button1" runat="server" Text="Generar Tabla" OnClick="Button1_Click" />
                         </td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
@@ -81,7 +81,9 @@
                         <td class="auto-style8"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style2">&nbsp;</td>
+                        <td class="auto-style2">
+                            <asp:Label ID="lblTabla" runat="server"></asp:Label>
+                        </td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>

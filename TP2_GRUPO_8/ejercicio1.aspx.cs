@@ -13,5 +13,18 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            {
+
+                String tabla = "<table border='1'>";
+
+                tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
+
+
+                lblTabla.Text = tabla;
+            }
+        }
     }
 }
