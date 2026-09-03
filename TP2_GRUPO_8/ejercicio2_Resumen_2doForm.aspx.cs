@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace TP2_GRUPO_8
 {
-    public partial class ejercicio2_form1 : System.Web.UI.Page
+    public partial class ejercicio2_Resumen_2doForm : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Server.Transfer("ejercicio2_Resumen_2doForm.aspx");
         }
     }
 }
