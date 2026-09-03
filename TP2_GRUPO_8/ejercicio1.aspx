@@ -57,6 +57,8 @@
 </td>
                         <td class="auto-style4">
                             <asp:TextBox ID="nombre_producto2" runat="server"></asp:TextBox>
+                            <asp:Label ID="Label2" runat="server" style="font-weight: 700" Text="Cantidad:"></asp:Label>
+                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                         </td>
                         <td class="auto-style4"></td>
                         <td class="auto-style4"></td>
