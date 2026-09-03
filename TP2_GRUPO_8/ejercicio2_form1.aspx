@@ -184,7 +184,7 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <asp:Button ID="Button1" runat="server" style="margin-left: 152px" Text="Ver resumen" Width="219px" />
+        <asp:Button ID="Button1" runat="server" style="margin-left: 152px" Text="Ver resumen" Width="219px" OnClick="Button1_Click" />
     </form>
 </body>
 </html>
