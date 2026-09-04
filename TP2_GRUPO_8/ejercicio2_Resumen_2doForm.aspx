@@ -14,6 +14,10 @@
         <div style="height: 54px">
             <asp:Label ID="lblResumen" runat="server" Font-Bold="True" Font-Italic="False" Font-Names="Arial Black" Font-Size="XX-Large" Text="Resumen"></asp:Label>
         </div>
+        <asp:Label ID="Label1" runat="server" Font-Bold="False"></asp:Label>
+        <p>
+            <asp:Label ID="Label2" runat="server" Font-Bold="False"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
