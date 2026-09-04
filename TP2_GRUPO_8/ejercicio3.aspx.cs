@@ -14,11 +14,6 @@ namespace TP2_GRUPO_8
 
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected void lnkRosa_Click(object sender, EventArgs e)
         {
             lblTextColorado.ForeColor = System.Drawing.ColorTranslator.FromHtml("#FF33CC");
@@ -27,6 +22,11 @@ namespace TP2_GRUPO_8
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
             lblTextColorado.ForeColor = System.Drawing.ColorTranslator.FromHtml("#4B0082");
+        }
+
+        protected void LinkButton3_Click(object sender, EventArgs e)
+        {
+            lblTextColorado.ForeColor = System.Drawing.ColorTranslator.FromHtml("#00CC00");
         }
     }
 }
