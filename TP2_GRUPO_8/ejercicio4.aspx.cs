@@ -19,7 +19,7 @@ namespace TP2_GRUPO_8
         {
             if (TextBox1.Text.ToLower() == "claudio" && txtBoxClave.Text.ToLower() == "casas")
             {
-              
+                Response.Redirect("ejercicio4_casopositivo.aspx");
             }
             else
             {
