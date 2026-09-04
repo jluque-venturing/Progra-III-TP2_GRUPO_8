@@ -15,6 +15,7 @@
         }
         .auto-style3 {
             width: 394px;
+            margin-left: 280px;
         }
         .auto-style4 {
             width: 394px;
@@ -99,7 +100,13 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style3">
+                    <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="280px">
+                        <asp:ListItem Value="2000.50">Monitor LCD</asp:ListItem>
+                        <asp:ListItem Value="550.50">HD 500GB</asp:ListItem>
+                        <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
+                    </asp:CheckBoxList>
+                </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
