@@ -13,6 +13,11 @@
         </div>
         <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="#FF33CC" OnClick="lnkRosa_Click">Rosa</asp:LinkButton>
         <p>
+            <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Indigo" OnClick="LinkButton2_Click">Azul Indigo</asp:LinkButton>
+        </p>
+        <p>
+            &nbsp;</p>
+        <p>
             <asp:Label ID="lblTextColorado" runat="server" Text="Texto Colorado"></asp:Label>
         </p>
     </form>
