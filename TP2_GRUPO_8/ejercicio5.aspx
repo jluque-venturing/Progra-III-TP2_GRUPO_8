@@ -135,7 +135,9 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style3">
+                    <asp:Label ID="lblPrecio" runat="server" Text="acavaelpreciocalculado"></asp:Label>
+                </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
