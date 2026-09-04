@@ -83,11 +83,7 @@
                     <tr>
                         <td class="auto-style2">
                             <asp:Label ID="lblTabla" runat="server"></asp:Label>
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        </td>                      
                     </tr>
                 </table>
             </div>

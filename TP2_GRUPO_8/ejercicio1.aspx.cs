@@ -21,8 +21,12 @@ namespace TP2_GRUPO_8
                 String tabla = "<table border='1'>";
 
                 tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
-
-
+                tabla += "<tr>";
+                tabla += "<td>" + nombre_producto1.Text + "</td>";
+                tabla += "<tr>";
+                tabla += "<td>" + nombre_producto2.Text + "</td>";
+                tabla += "</tr>";
+                tabla += "</table>";
                 lblTabla.Text = tabla;
             }
         }
