@@ -6,6 +6,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Form_Resumen</title>
+    <style type="text/css">
+        #form1 {
+            height: 308px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,6 +22,10 @@
         <asp:Label ID="Label1" runat="server" Font-Bold="False"></asp:Label>
         <p>
             <asp:Label ID="Label2" runat="server" Font-Bold="False"></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="Label3" runat="server" Font-Bold="False"></asp:Label>
+
         </p>
     </form>
 </body>

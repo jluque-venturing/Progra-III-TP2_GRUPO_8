@@ -13,12 +13,13 @@ namespace TP2_GRUPO_8
         {
             string nombre = ((TextBox)PreviousPage.FindControl("TextBox1")).Text;
             string apellido = ((TextBox)PreviousPage.FindControl("TextBox2")).Text;
+            string zonaSeleccionada = ((DropDownList)PreviousPage.FindControl("DropDownList1")).SelectedValue;
 
             // mando la info a los label del segundo formulario
             Label1.Text = "Nombre: " + "<b>" + nombre + "</b>";
             Label2.Text = "Apellido: " + "<b>" + apellido + "</b>";
-
-            // aca muestro lo obtuvido en el primer formulario
+            Label3.Text = "Zona: " + "<b>" + zonaSeleccionada + "</b>";
+            // aca muestro lo obtenido en el primer formulario
         }
     }
 }
