@@ -114,9 +114,9 @@
                 </td>
                 <td class="auto-style7">
                     <asp:DropDownList ID="DropDownList1" runat="server">
-                        <asp:ListItem Value="zona norte">Gral. Pacheco</asp:ListItem>
-                        <asp:ListItem Value="zona oeste">San Miguel</asp:ListItem>
-                        <asp:ListItem Value="zona sur">Boedo</asp:ListItem>
+                        <asp:ListItem Value="Norte">Gral. Pacheco</asp:ListItem>
+                        <asp:ListItem Value="Oeste">San Miguel</asp:ListItem>
+                        <asp:ListItem Value="Sur">Boedo</asp:ListItem>
                     </asp:DropDownList>
                 </td>
                 <td>&nbsp;</td>
