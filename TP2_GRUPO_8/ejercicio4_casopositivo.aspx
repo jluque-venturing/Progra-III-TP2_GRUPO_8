@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="lblBienvenidos" runat="server" Font-Bold="True" Font-Size="XX-Large" Height="40px" Text="Bienvenidos a mi pagina Sr/a." Width="528px"></asp:Label>
         </div>
     </form>
 </body>
