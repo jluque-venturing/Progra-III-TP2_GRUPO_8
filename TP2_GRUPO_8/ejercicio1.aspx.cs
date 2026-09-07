@@ -23,8 +23,10 @@ namespace TP2_GRUPO_8
                 tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
                 tabla += "<tr>";
                 tabla += "<td>" + nombre_producto1.Text + "</td>";
+                tabla += "<td>" + cantidad_producto1.Text + "</td>";
                 tabla += "<tr>";
                 tabla += "<td>" + nombre_producto2.Text + "</td>";
+                tabla += "<td>" + cantidad_producto2.Text + "</td>";
                 tabla += "</tr>";
                 tabla += "</table>";
                 lblTabla.Text = tabla;
