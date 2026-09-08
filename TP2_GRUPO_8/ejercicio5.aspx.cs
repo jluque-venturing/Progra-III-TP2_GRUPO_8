@@ -28,9 +28,19 @@ namespace TP2_GRUPO_8
         {
             //aca use el selected value para obtener el valor del precio de la ram seleccionada en el dropdownlist
             string precioRam = DropDownList1.SelectedValue;
+            double precioAccesorio = 0; //se utilizó esto debido a que es decimal
 
+            foreach (ListItem item in CheckBoxList1.Items)
+            {
+
+                if (item.Selected)
+                {
+                    precioAccesorio += double.Parse(item.Value); //acumulo el precio seleccionado que se encuentra ya en el value de los items
+                }
+
+            }
+            lblPrecio.Text = "El precio es: $" + precioRam + " El precio accesorio es: $ " + precioAccesorio;
             
-            lblPrecio.Text = "El precio es: $" + precioRam;
         }
     }
 }
