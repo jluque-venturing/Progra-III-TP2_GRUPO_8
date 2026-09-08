@@ -66,7 +66,7 @@
             </tr>
             <tr>
                 <td class="auto-style4">
-                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                         <asp:ListItem Value="200">2 GB</asp:ListItem>
                         <asp:ListItem Value="375">4 GB</asp:ListItem>
                         <asp:ListItem Value="500">6 GB</asp:ListItem>
@@ -101,7 +101,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="280px">
+                    <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="280px" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
                         <asp:ListItem Value="2000.50">Monitor LCD</asp:ListItem>
                         <asp:ListItem Value="550.50">HD 500GB</asp:ListItem>
                         <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
@@ -125,7 +125,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:Button ID="Button1" runat="server" Text="Calcular precio" />
+                    <asp:Button ID="Button1" runat="server" Text="Calcular precio" OnClick="Button1_Click" />
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>&nbsp;</td>

@@ -13,5 +13,24 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            //aca use el selected value para obtener el valor del precio de la ram seleccionada en el dropdownlist
+            string precioRam = DropDownList1.SelectedValue;
+
+            
+            lblPrecio.Text = "El precio es: $" + precioRam;
+        }
     }
 }

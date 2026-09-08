@@ -38,7 +38,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <table class="auto-style1">
+        ,,<table class="auto-style1">
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
@@ -159,7 +159,7 @@
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style7">
-                    <asp:CheckBox ID="CheckBox3" runat="server" Text="Literatura" />
+                    <asp:CheckBox ID="CheckBox2" runat="server" Text="Historia" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -173,7 +173,7 @@
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style7">
-                    <asp:CheckBox ID="CheckBox2" runat="server" Text="Historia" />
+                    <asp:CheckBox ID="CheckBox3" runat="server" Text="Literatura" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

@@ -12,7 +12,7 @@
         }
     </style>
 </head>
-<body>
+<body style="height: 310px">
     <form id="form1" runat="server">
         <div>
         </div>
@@ -25,6 +25,10 @@
         </p>
         <p>
             <asp:Label ID="Label3" runat="server" Font-Bold="False"></asp:Label>
+
+        </p>
+        <p>
+            <asp:Label ID="Label4" runat="server"></asp:Label>
 
         </p>
     </form>
