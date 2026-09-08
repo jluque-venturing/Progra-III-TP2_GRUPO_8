@@ -33,5 +33,9 @@ namespace TP2_GRUPO_8
         {
             lblTextColorado.ForeColor = System.Drawing.ColorTranslator.FromHtml("#6200FF");
         }
+        protected void LinkButton5_Click(object sender, EventArgs e)
+        {
+            lblTextColorado.ForeColor = System.Drawing.ColorTranslator.FromHtml("#FF0000");
+        }
     }
 }
