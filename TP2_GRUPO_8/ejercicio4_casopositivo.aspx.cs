@@ -12,6 +12,9 @@ namespace TP2_GRUPO_8
         protected void Page_Load(object sender, EventArgs e)
         {
             string nombre = Request.QueryString["nombre"];
+
+            lblBienvenidos.Text = "Bienvenidos a mi página Sr/a. " + nombre;
+
         }
     }
 }
