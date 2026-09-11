@@ -43,7 +43,9 @@ namespace TP2_GRUPO_8
             float precioFinal = precioRam + precioAccesorios;
 
             // y tiro todo al label
-            lblPrecio.Text = "<b>El Precio final es de " + precioFinal + " $</b>";
+            lblPrecio.Text = "El precio de la RAM es: $" + precioRam +
+                   " - Precio accesorios: $" + precioAccesorios +
+                   "<br /><b>El Precio final es de " + precioFinal + " $</b>";
         }
     }
     }
