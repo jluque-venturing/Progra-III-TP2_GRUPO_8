@@ -74,6 +74,7 @@
     <Content Include="Web.config" />
     <Content Include="ejercicio1.aspx" />
     <Content Include="ejercicio4_casopositivo.aspx" />
+    <Content Include="ejercicio4_casonegativo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ejercicio2_form1.aspx.cs">
@@ -125,6 +126,13 @@
     </Compile>
     <Compile Include="ejercicio4_casopositivo.aspx.designer.cs">
       <DependentUpon>ejercicio4_casopositivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio4_casonegativo.aspx.cs">
+      <DependentUpon>ejercicio4_casonegativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio4_casonegativo.aspx.designer.cs">
+      <DependentUpon>ejercicio4_casonegativo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

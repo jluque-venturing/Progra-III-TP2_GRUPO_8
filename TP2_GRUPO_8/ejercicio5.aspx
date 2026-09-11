@@ -102,8 +102,8 @@
             <tr>
                 <td class="auto-style3">
                     <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="280px" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged">
-                        <asp:ListItem Value="2000.50">Monitor LCD</asp:ListItem>
-                        <asp:ListItem Value="550.50">HD 500GB</asp:ListItem>
+                        <asp:ListItem Value="2000,50">Monitor LCD</asp:ListItem>
+                        <asp:ListItem Value="550,50">HD 500GB</asp:ListItem>
                         <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
                     </asp:CheckBoxList>
                 </td>

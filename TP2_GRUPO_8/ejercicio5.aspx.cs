@@ -26,19 +26,24 @@ namespace TP2_GRUPO_8
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //aca use el selected value para obtener el valor del precio de la ram seleccionada en el dropdownlist
-            string precioRam = DropDownList1.SelectedValue;
+            // convierto el valor de la ram a numero
+            float precioRam = float.Parse(DropDownList1.SelectedValue);
             float precioAccesorios = 0;
 
+            //aca sumo los elementos seleccionados
             foreach (ListItem item in CheckBoxList1.Items)
             {
                 if (item.Selected)
                 {
                     precioAccesorios += float.Parse(item.Value);
-
                 }
-                lblPrecio.Text = "El precio es: $" + precioRam + " Precio accesorio: $ " + precioAccesorios;
             }
+
+            // calculo precio final
+            float precioFinal = precioRam + precioAccesorios;
+
+            // y tiro todo al label
+            lblPrecio.Text = "<b>El Precio final es de " + precioFinal + " $</b>";
         }
     }
-}
+    }

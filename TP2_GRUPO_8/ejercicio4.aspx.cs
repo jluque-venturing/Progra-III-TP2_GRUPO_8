@@ -23,7 +23,7 @@ namespace TP2_GRUPO_8
             }
             else
             {
-
+                Response.Redirect("ejercicio4_casonegativo.aspx");
             }
         }
     }
