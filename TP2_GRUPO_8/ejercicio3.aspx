@@ -27,7 +27,7 @@
     <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="#6200FF" OnClick="LinkButton4_Click">Violeta</asp:LinkButton>
 </p>
         <p>
-            &nbsp;<asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Red" OnClick="LinkButton4_Click">Rojo</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Red" OnClick="LinkButton5_Click">Rojo</asp:LinkButton>
             &nbsp;</p>
             <asp:Label ID="lblTextColorado" runat="server" Text="Texto Colorado"></asp:Label>
     </form>

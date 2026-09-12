@@ -38,7 +38,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        ,,<table class="auto-style1">
+        <table class="auto-style1">
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style2">&nbsp;</td>

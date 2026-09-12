@@ -14,16 +14,6 @@ namespace TP2_GRUPO_8
 
         }
 
-        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             // convierto el valor de la ram a numero
